@@ -1,9 +1,9 @@
-import mercedesE180 from '../assets/e180.jpeg';
-import grandWhite from '../assets/jeep-white.jpeg';
-import grandBlack from '../assets/jeep-black.jpeg';
-import mercedesC200 from '../assets/c200.jpeg';
-import rangeSportBlack from '../assets/sport-black.jpeg';
-import rangeSportWhite from '../assets/sport-white.jpeg';
+import mercedesE180 from '../../public/e180.jpeg';
+import grandWhite from '../../public/jeep-white.jpeg';
+import grandBlack from '../../public/jeep-black.jpeg';
+import mercedesC200 from '../../public/c200.jpeg';
+import rangeSportBlack from '../../public/sport-black.jpeg';
+import rangeSportWhite from '../../public/sport-white.jpeg';
 
 
 
