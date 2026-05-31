@@ -27,7 +27,7 @@ function CarDetails() {
           </p>
 
           <a
-            href={`https://wa.me/201000000000?text=عايز%20احجز%20${car.name}`}
+            href={`https://wa.me/201143332696?text=عايز%20احجز%20${car.name}`}
             target='_blank'
             rel='noreferrer'
           >
