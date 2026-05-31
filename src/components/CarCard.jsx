@@ -33,7 +33,7 @@ function CarCard({ car }) {
           </Link>
 
           <a
-            href='https://wa.me/201000000000'
+          href='https://wa.me/201143332696'
             target='_blank'
             rel='noreferrer'
             className='card-whatsapp'
