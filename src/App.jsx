@@ -4,11 +4,6 @@ import Home from './pages/Home'
 import Cars from './pages/Cars'
 import CarDetails from './pages/CarDetails'
 
-import Dashboard from './dashboard/Dashboard'
-import AddCar from './dashboard/AddCar'
-import EditCar from './dashboard/EditCar'
-import CarsManagement from './dashboard/CarsManagement'
-
 import './App.css'
 
 function App() {
@@ -32,27 +27,7 @@ function App() {
         element={<CarDetails />}
       />
 
-      {/* Dashboard */}
-
-      <Route
-        path='/dashboard'
-        element={<Dashboard />}
-      />
-
-      <Route
-        path='/dashboard/add-car'
-        element={<AddCar />}
-      />
-
-      <Route
-        path='/dashboard/edit-car/:id'
-        element={<EditCar />}
-      />
-
-      <Route
-        path='/dashboard/cars'
-        element={<CarsManagement />}
-      />
+      
 
     </Routes>
   )
