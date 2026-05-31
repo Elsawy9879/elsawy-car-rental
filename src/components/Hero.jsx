@@ -33,9 +33,10 @@ function Hero() {
 
           <div className='hero-buttons'>
 
-            <a href='/cars'>
-              استكشف الأسطول
-            </a>
+            <Link to='/cars'>
+          استكشف الاسطول
+        </Link>
+
 
             <a
               href='https://wa.me/201000000000'
