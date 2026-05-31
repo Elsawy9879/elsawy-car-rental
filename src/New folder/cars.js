@@ -7,6 +7,7 @@ const cars = [
     image: '/e180.jpeg',
   },
 
+  
   {
     id: 2,
     brand: 'Jeep',
