@@ -1,21 +1,10 @@
-import mercedesE180 from '../../public/e180.jpeg';
-import grandWhite from '../../public/jeep-white.jpeg';
-import grandBlack from '../../public/jeep-black.jpeg';
-import mercedesC200 from '../../public/c200.jpeg';
-import rangeSportBlack from '../../public/sport-black.jpeg';
-import rangeSportWhite from '../../public/sport-white.jpeg';
-
-
-
-
 const cars = [
-
   {
     id: 1,
     brand: 'Mercedes',
     name: 'Mercedes E180',
     type: 'Automatic',
-    image: mercedesE180,
+    image: '/e180.jpeg',
   },
 
   {
@@ -23,7 +12,7 @@ const cars = [
     brand: 'Jeep',
     name: 'Grand Cherokee',
     type: 'Automatic',
-    image: grandWhite ,
+    image: '/jeep-white.jpeg',
   },
 
   {
@@ -31,7 +20,7 @@ const cars = [
     brand: 'Mercedes',
     name: 'Mercedes C200',
     type: 'Automatic',
-    image:mercedesC200,
+    image: '/c200.jpeg',
   },
 
   {
@@ -39,22 +28,24 @@ const cars = [
     brand: 'Jeep',
     name: 'Grand Cherokee',
     type: 'Automatic',
-    image: grandBlack ,
+    image: '/jeep-black.jpeg',
   },
+
   {
     id: 5,
     brand: 'RangeRover',
     name: 'Range Rover Black Sport',
     type: 'Automatic',
-    image: rangeSportBlack ,
+    image: '/sport-black.jpeg',
   },
- {
+
+  {
     id: 6,
     brand: 'RangeRover',
     name: 'Range Rover White Sport',
     type: 'Automatic',
-    image: rangeSportWhite ,
+    image: '/sport-white.jpeg',
   },
 ]
 
-export default cars
+export default cars;
