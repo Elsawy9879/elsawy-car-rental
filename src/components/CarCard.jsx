@@ -1,30 +1,22 @@
-import { Link } from 'react-router-dom'
-
 function CarCard({ car }) {
 
-  return (
+  if (!car) return null
 
+  return (
     <div className='car-card'>
 
       <div className='car-image'>
-
         <img
-          src={car.image}
-          alt={car.name}
+          src={car.image || '/placeholder.jpg'}
+          alt={car.name || 'car'}
         />
-
       </div>
 
       <div className='card-content'>
 
-        <h3>
-          {car.name}
-        </h3>
+        <h3>{car.name}</h3>
 
-
-        <span>
-          {car.type}
-        </span>
+        <span>{car.type}</span>
 
         <div className='card-buttons'>
 
@@ -33,7 +25,7 @@ function CarCard({ car }) {
           </Link>
 
           <a
-          href='https://wa.me/201143332696'
+            href='https://wa.me/201143332696'
             target='_blank'
             rel='noreferrer'
             className='card-whatsapp'
@@ -46,8 +38,5 @@ function CarCard({ car }) {
       </div>
 
     </div>
-
   )
 }
-
-export default CarCard
