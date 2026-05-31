@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Cairo',sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#050505;
+  color:white;
+  overflow-x:hidden;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+ul{
+  list-style:none;
+}
+
+button{
+  font-family:'Cairo',sans-serif;
+}
+
+input,
+textarea,
+select{
+  font-family:'Cairo',sans-serif;
+  outline:none;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-track{
+  background:#080808;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#d4af37;
+  border-radius:20px;
+}
+
+::selection{
+  background:#d4af37;
+  color:black;
+}
+
+.container{
+  width:90%;
+  max-width:1400px;
+  margin:auto;
+}
+
+.section-title{
+  text-align:center;
+  font-size:48px;
+  color:#d4af37;
+  margin-bottom:50px;
+}
+
+.gold-text{
+  color:#d4af37;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.mt-5{
+  margin-top:50px;
+}
+
+.mb-5{
+  margin-bottom:50px;
+}
